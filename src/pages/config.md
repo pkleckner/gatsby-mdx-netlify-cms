@@ -7,5 +7,5 @@ menu_nav:
   - text: CMS created page
     url: /content/example-content-creation
   - text: Test Page 1
-    url: /test-page-1
+    url: /content/test-page-1
 ---
