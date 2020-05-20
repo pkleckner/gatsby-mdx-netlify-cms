@@ -43,9 +43,17 @@ module.exports = {
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
     {
-      resolve: `gatsby-plugin-netlify-cms`,
+      resolve: "gatsby-plugin-netlify-cms",
       options: {
-        modulePath: `${__dirname}/src/cms/cms.js`, // for custom preview in the Netlify CMS
+        modulePath: `${__dirname}/src/cms/cms.js`,
+        customizeWebpackConfig: config => {
+          config.node = {
+            ...config.node,
+            fs: "empty",
+            child_process: "empty",
+            module: "empty",
+          };
+        },
       },
     },
   ],
