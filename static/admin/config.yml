@@ -55,17 +55,17 @@ collections:
       }
 - name: "content"
   label: "Content Pages"
-  folder: "src/pages/content"
+  folder: "src/pages"
   create: true
   fields:
   - label: "Select a Template"
     name: "templateKey"
     widget: "select"
     options:
-      - { label: "Normal Content Page", value: "default-page" }
+      - { label: "Normal Content Page", value: "content-page" }
       - { label: "Home Page", value: "home-page" }
       - { label: "Hidden Page", value: "hidden-page" }
-    default: [value: "default-page"]
+    default: [ label: "Normal Content Page", value: "content-page"]
   - { label: "Title", name: "title", widget: "string" }
   - { label: "Description", name: "description", widget: "text" }
   - { label: "Body", name: "body", widget: "markdown" }

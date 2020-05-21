@@ -11,6 +11,7 @@ import { safelyGetFrontMatter } from "../cms"
 // https://www.gatsbyjs.org/packages/gatsby-mdx/#installation
 const componentTemplateMap = {
   "home-page": HomePage,
+  "content-page": DefaultPage,
   "hidden-page": NotFoundPage,
 }
 
