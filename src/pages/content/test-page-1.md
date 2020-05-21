@@ -1,4 +1,5 @@
 ---
+templateKey: home-page
 title: Test Page 1
 description: Testing the Page Creation process.
 ---
