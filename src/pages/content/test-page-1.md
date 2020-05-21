@@ -7,7 +7,7 @@ This is my test content.
 
 <CallToAction url="/" align="center" bgColor="midnightblue">Call to Action Button</CallToAction>
 
-<CallToAction url="hgf" align="center" bgColor="crimson">hgf</CallToAction>
+<CallToAction url="/" align="center" bgColor="crimson">Test</CallToAction>
 
 <Testimonial image="/img/adam-solomon-whudozd5iyu-unsplash.jpg" attribution="Check this out">
   Hey this rocks!</Testimonial>
