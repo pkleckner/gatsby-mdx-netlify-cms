@@ -14,6 +14,7 @@ export const HomePageTemplate = ({ title, sections }) => (
     {withFallback(sections, []).map((section, i) => {
       return (
         <section key={i}>
+          <p>Home Page Template</p>
           <h2>{section.title}</h2>
           <RenderMarkdown
             md={section.body}

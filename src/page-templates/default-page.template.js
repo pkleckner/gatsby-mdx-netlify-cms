@@ -19,6 +19,7 @@ export const DefaultPageTemplate = ({ title, body, children }) => {
       <RenderMarkdown md={body} />
       {/* Include children to support any normal MDX files in the project */}
       <MDXProvider components={{ ...CMS_COMPONENTS, ...CMS_SHORTCODES }}>
+      <p>Default Page Template</p>
         {children}
       </MDXProvider>
     </article>

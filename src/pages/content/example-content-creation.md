@@ -1,6 +1,7 @@
 ---
 title: Example Content Creation
 description: CMS Made
+templateKey: ''
 ---
 ## Example
 

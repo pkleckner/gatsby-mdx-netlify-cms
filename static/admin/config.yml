@@ -58,6 +58,14 @@ collections:
   folder: "src/pages/content"
   create: true
   fields:
+  - label: "Select a Template"
+    name: "templateKey"
+    widget: "select"
+    options:
+      - { label: "Normal Content Page", value: "default-page" }
+      - { label: "Home Page", value: "home-page" }
+      - { label: "Hidden Page", value: "hidden-page" }
+    default: [value: "default-page"]
   - { label: "Title", name: "title", widget: "string" }
   - { label: "Description", name: "description", widget: "text" }
   - { label: "Body", name: "body", widget: "markdown" }
