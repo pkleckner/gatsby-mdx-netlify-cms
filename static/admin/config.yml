@@ -55,7 +55,7 @@ collections:
       }
 - name: "content"
   label: "Content Pages"
-  folder: "src/pages"
+  folder: "src/pages/content"
   create: true
   fields:
   - label: "Select a Template"
